@@ -1,0 +1,288 @@
+a {
+    color: inherit;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    color: white;
+    padding-top: 10rem;
+    font-size: 3.1rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+    font-weight: 400;
+    padding: 10%;
+}
+
+/* Title */
+
+.btn{
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+.container-fluid {
+    padding: 1% 15% 0 15%;
+    margin-top: 0;
+}
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-link {
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+#features {
+    padding: 180px 180px 0 180px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    bottom: 180px;
+}
+
+#page2-text {
+    text-align: center;
+    line-height: 200%;
+}
+
+#page2-pics {
+    color: #ef8172;
+    margin-bottom: 7%;
+}
+
+#page2-pics:hover {
+    color: #ff4c68;
+}
+
+#phone-pic {
+    width: 55%;
+    transform: rotate(25deg);
+    margin: 100px;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+/* Testimonials */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 30px 20px 0px 20px;
+}
+
+.testimonial-text {
+    font-weight: 600;
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+/* Press */
+
+.press-image {
+    width: 8%;
+    margin: 30px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 10%;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.custom-cards {
+    width: 90%;
+    margin: auto;
+}
+
+.pricing-button {
+    margin: 0;
+    padding-left: 33%;
+    padding-right: 33%;
+}
+
+.pricing-para {
+    padding: 2%;
+}
+
+/* Call to Action */
+
+#cta {
+    background-color:#ff4c68;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    padding: 100px 180px;
+}
+
+#cta-h3 {
+    padding: 20px 30px;
+    font-size: 3rem;
+}
+
+#cta-buttons {
+    padding: auto;
+    margin: 30px 13px;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding-top: 7%;
+}
+
+#footer-p {
+    padding: 1%;
+}
+
+#footer-button {
+    padding: 5px;
+}
+
+/* For smaller size */
+
+@media (max-width: 1250px) and (min-width: 1144px) {
+
+    #features {
+        position: static;
+        padding-bottom: 180px;
+    }
+    
+}
+
+/* Even smaller */
+
+@media (max-width: 1144px) and (min-width: 993px) {
+
+    #title {
+        padding-bottom: 5%;
+    }
+
+    #features {
+        position: static;
+        padding-bottom: 180px;
+    }
+    
+}
+
+/* Phone size */
+
+@media (max-width: 993px) and (min-width: 580px) {
+
+    .btn {
+        margin: 3%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #features {
+        position: static;
+        padding-bottom: 180px;
+    }
+
+    #phone-pic {
+        width: 40%;
+        transform: rotate(0deg);
+        margin: 100px;
+    }
+
+    h1 {
+        padding-top: 5rem;
+    }
+    
+    #cta-h3 {
+        padding: 20px 30px;
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 580px) {
+
+    .btn {
+        margin: 3%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #features {
+        position: static;
+        padding-bottom: 180px;
+    }
+
+    #phone-pic {
+        width: 40%;
+        transform: rotate(0deg);
+        margin: 100px;
+    }
+
+    #cta-h3 {
+        padding: 20px 30px;
+        font-size: 1rem;
+    }
+
+    #cta-buttons {
+        margin: 10px 10px;
+    }
+
+    #cta {
+        padding: 50px;
+    }
+}
